@@ -1,0 +1,106 @@
+/* CSS Document  */
+/* Project name: TP Bootstrap */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: Mayo de 2016 */
+/* Author: Name Lastname */
+/* Author's eMail: username@server.com */
+/********** FONTS (Google-fonts) **********/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+body {
+  font-family: "Roboto Slab";
+  margin: 0; }
+
+figure {
+  margin: 0;
+  line-height: 0; }
+
+a {
+  outline: none !important; }
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+.navbar-default {
+  background-color: #222;
+  border: none; }
+  .navbar-default .navbar-toggle {
+    border: none;
+    background-color: #fed136;
+    color: #fff; }
+    .navbar-default .navbar-toggle:hover {
+      background: #fed136; }
+  .navbar-default .navbar-brand {
+    color: #fed136;
+    font-family: "Kaushan Script"; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand:focus {
+      color: #fed136 !important; }
+  .navbar-default .navbar-nav > li > a {
+    font-family: "Montserrat";
+    color: #fff;
+    text-transform: uppercase; }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+      color: #fed136 !important; }
+    .navbar-default .navbar-nav > li > a > .active > a {
+      color: #FFF;
+      background-color: #fed136 !important; }
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+#banner {
+  background: url(../images/header-bg.jpg) center center/cover; }
+
+.intro-text {
+  padding: 100px 0 50px;
+  color: #fff; }
+  .intro-text h2 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: "Droid Serif";
+    margin-bottom: 25px; }
+  .intro-text h1 {
+    font: 700 50px/50px "Montserrat";
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  .intro-text .btn {
+    background-color: #fed136;
+    color: #fff;
+    text-transform: uppercase;
+    font: 400 18px "Montserrat";
+    padding: 20px 40px;
+    border-radius: 5px; }
+    .intro-text .btn:hover {
+      color: #fff; }
+
+/***************************************/
+/*=========     SERVICES     =========*/
+/*************************************/
+/****************************************/
+/*=========     PORTFOLIO     =========*/
+/**************************************/
+/************************************/
+/*=========     ABOUT     =========*/
+/**********************************/
+/***********************************/
+/*=========     TEAM     =========*/
+/*********************************/
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/
+
+/*# sourceMappingURL=styles.css.map */

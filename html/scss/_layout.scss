@@ -1,0 +1,126 @@
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+
+
+
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+
+.navbar-default{
+		background-color: #222;
+		border: none;
+
+
+		.navbar-toggle{
+				border: none;
+				background-color: $base-color;
+				color: #fff;
+				&:hover{
+					background: $base-color;
+						}
+				  }
+        .navbar-brand{
+				color: $base-color;
+				font-family: $comp-font;
+				&:hover,
+				&:active,
+				&:focus{
+					color: $base-color !important;
+						}
+					}
+
+		.navbar-nav{
+			>li{
+				>a{
+					font-family: $third-font;
+					color: #fff;
+					text-transform: uppercase;
+					&:hover,
+					&:active,
+					&:focus{
+
+						color: $base-color !important;
+					}
+			>.active{
+				>a{
+					color: #FFF;
+					background-color: $base-color !important;
+		    	  }
+					}
+
+				}
+			}
+
+
+		}
+		
+		
+
+ }
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+#banner{
+
+	background: url(../images/header-bg.jpg) center center/cover;
+}
+
+.intro-text{
+		padding: 100px 0 50px;
+		color: #fff;
+		h2{
+			font-weight: 400;
+			font-style: italic;
+			font-size: 22px;
+			line-height: 22px;
+			font-family: $fourth-font;
+			margin-bottom: 25px;
+		}
+
+		h1{
+			font: 700 50px/50px $third-font;
+			text-transform: uppercase;
+			margin-bottom: 25px;
+		  }
+
+		.btn{
+			background-color: $base-color;
+			color: #fff;
+			text-transform: uppercase;
+			font: 400 18px $third-font;
+			padding:  20px 40px;
+			@include b-ra(5px);
+			&:hover{
+				color: #fff;
+			}
+		}  
+	}
+
+/***************************************/
+/*=========     SERVICES     =========*/
+/*************************************/
+
+
+/****************************************/
+/*=========     PORTFOLIO     =========*/
+/**************************************/
+
+
+
+/************************************/
+/*=========     ABOUT     =========*/
+/**********************************/
+
+
+
+/***********************************/
+/*=========     TEAM     =========*/
+/*********************************/
+
+
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/
